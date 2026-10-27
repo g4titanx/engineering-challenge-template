@@ -1,3 +1,5 @@
+//! Challenge SBE types and shared book-side values.
+
 pub mod util;
 
 mod side;
