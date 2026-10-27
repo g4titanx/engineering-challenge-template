@@ -1,0 +1,8 @@
+[alias]
+cc = "clippy --all-targets -- -D warnings"
+bb = "build --all --all-features --release"
+tk = "test kalshi"
+tp = "test polymarket"
+bt = "bench --bench throughput"
+rt = "run --release -- --exchange kalshi --tui"
+rtp = "run --release -- --exchange polymarket --tui"
